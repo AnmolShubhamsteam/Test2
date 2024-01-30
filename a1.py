@@ -4,8 +4,11 @@ class Calcuator:
         self.b=b
     def add(self):
         return self.a+self.b
+    def sub(self):
+        return self.b-self.a
 
 
 if __name__=="__main__":
     a=Calcuator(20,30)
     print(a.add())
+    print(a.sub())
