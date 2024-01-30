@@ -1,3 +1,4 @@
+import numpy as np 
 class Calcuator:
     def __init__(self,a,b):
         self.a=a
@@ -10,6 +11,8 @@ class Calcuator:
         return self.a*self.b
     def div(self):
         return self.a/self.b
+    def log(self):
+        return np.log(self.a)
 
 
 if __name__=="__main__":
@@ -18,3 +21,4 @@ if __name__=="__main__":
     print(a.sub())
     print(a.mul())
     print(a.div())
+    print(a.log())
