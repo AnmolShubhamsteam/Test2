@@ -8,6 +8,8 @@ class Calcuator:
         return self.b-self.a
     def mul(self):
         return self.a*self.b
+    def div(self):
+        return self.a/self.b
 
 
 if __name__=="__main__":
@@ -15,3 +17,4 @@ if __name__=="__main__":
     print(a.add())
     print(a.sub())
     print(a.mul())
+    print(a.div())
