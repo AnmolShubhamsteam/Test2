@@ -17,6 +17,8 @@ class Calcuator:
         return np.sin(self.a)
     def cos(self):
         return np.cos(self.a)
+    def tan(self):
+        return np.tan(self.a)
 
 
 if __name__=="__main__":
@@ -28,3 +30,4 @@ if __name__=="__main__":
     print(a.log())
     print(a.sin())
     print(a.cos())
+    print(a.tan())
