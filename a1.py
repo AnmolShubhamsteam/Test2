@@ -20,6 +20,7 @@ class Calcuator:
     def tan(self):
         return np.tan(self.a)
 # Some local Changes
+# Some remote Changes
 
 if __name__=="__main__":
     a=Calcuator(20,30)
