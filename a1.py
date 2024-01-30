@@ -21,6 +21,9 @@ class Calcuator:
         return np.tan(self.a)
 # Some local Changes
 # Some remote Changes
+# Some local changes to be pushed
+# 1
+# 2
 
 if __name__=="__main__":
     a=Calcuator(20,30)
