@@ -19,7 +19,7 @@ class Calcuator:
         return np.cos(self.a)
     def tan(self):
         return np.tan(self.a)
-
+# Some local Changes
 
 if __name__=="__main__":
     a=Calcuator(20,30)
