@@ -13,6 +13,8 @@ class Calcuator:
         return self.a/self.b
     def log(self):
         return np.log(self.a)
+    def sin(self):
+        return np.sin(self.a)
 
 
 if __name__=="__main__":
@@ -22,3 +24,4 @@ if __name__=="__main__":
     print(a.mul())
     print(a.div())
     print(a.log())
+    print(a.sin())
